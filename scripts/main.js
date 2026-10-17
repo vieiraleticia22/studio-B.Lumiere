@@ -1,5 +1,4 @@
 
-
 const menuButton = document.querySelector("#menuButton");
 const navigation = document.querySelector("#navigation");
 
@@ -72,3 +71,6 @@ prevGallery.addEventListener("click", () => {
 const year = document.querySelector("#year");
 
 year.textContent = new Date().getFullYear();
+
+
+
