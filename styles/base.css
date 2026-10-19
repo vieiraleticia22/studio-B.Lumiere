@@ -110,7 +110,8 @@ header{
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: var(--white-color);
+    background-color: var(--background-color);
+    
     text-align: center;
     box-shadow: 0 5px 10px rgba(41, 43, 48, 0.08);
 }
