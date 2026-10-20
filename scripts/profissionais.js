@@ -25,6 +25,12 @@ const professionals = [
         especialidade: "Lash Lifting / Cílios / Brow / Desing",
         imagem: "imagens/bruna.webp.webp",
         whatsapp: "https://wa.me/message/5527992970437"
+    },
+    {
+        nome: "Clarice Sobreiro",
+        especialidade: "Nail Designer",
+        imagem: "imagens/clarice.wepb",
+        whatsapp: "https://wa.me/5527997651408"
     }
 ];
 
