@@ -6,25 +6,25 @@ const professionals = [
         nome: "Beatriz Rodrigues",
         especialidade: "Maquiadora",
         imagem: "imagens/bea.webp.webp",
-        whatsapp: "https://wa.me/message/5527996020014"
+        whatsapp: "https://wa.me/5527996020014"
     },
     {
         nome: "Thayany Cani",
         especialidade: "Cílios / Brow / Desing",
         imagem: "imagens/thay.webp.webp",
-        whatsapp: "https://wa.me/message/5527997191724"
+        whatsapp: "https://wa.me/5527997191724"
     },
     {
         nome: "Laíza Costta",
         especialidade: "Nail Desing",
         imagem: "imagens/laiza.webp.webp",
-        whatsapp: "https://wa.me/message/5527988634440"
+        whatsapp: "https://wa.me/5527988634440"
     },
     {
         nome: "Bruna Alves",
         especialidade: "Lash Lifting / Cílios / Brow / Desing",
         imagem: "imagens/bruna.webp.webp",
-        whatsapp: "https://wa.me/message/5527992970437"
+        whatsapp: "https://wa.me/5527992970437"
     },
     {
         nome: "Clarice Sobreiro",
