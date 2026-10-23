@@ -8,28 +8,32 @@ menuButton.addEventListener("click", () => {
 
 const galleryImages = [
     {
-        src: "imagens/hero-studio.webp",
+        src: "imagens/recepcao.jpeg",
         alt: "Recepção do Studio B. Lumière"
     },
     {
-        src: "imagens/studio-interior.webp",
+        src: "imagens/espaco_unha.jpeg",
         alt: "Interior do Studio B. Lumière"
     },
     {
-        src: "imagens/parede.webp",
+        src: "imagens/desenho_parede.jpeg",
         alt: "Parede decorativa do Studio B. Lumière"
     },
     {
-        src: "imagens/interior_cilios.webp",
+        src: "imagens/cilios.jpeg",
         alt: "Sala de cílios do Studio B. Lumière"
     },
     {
-        src: "imagens/espelho.webp",
+        src: "imagens/espelho.1.jpeg",
         alt: "Sala de maquiagem do Studio B. Lumière"
     },
     {
-        src: "imagens/interior_maquiagem.webp",
+        src: "imagens/maquiagem.jpeg",
         alt: "Sala de maquiagem do Studio B. Lumière"
+    },
+    {
+        src: "imagens/espelho.2.jpeg",
+        alt: "Espelho de maquiagem do Studio B. Lumière"
     }
 ];
 

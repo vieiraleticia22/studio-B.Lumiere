@@ -1,6 +1,6 @@
 
 :root{
-    --primary-color:#B89A62;
+    --primary-color:#4d2701;
     --secondary-color:#EBDBCB;
     --background-color:#F6EEE7;
     --dark-color:#292B30;
@@ -37,7 +37,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(122, 117, 117);
+    background-color: #E9DBCC;
     padding: 1rem 5%;
     display: flex;
     align-items: center;
@@ -57,12 +57,13 @@ header.scrolled{
     display: flex;
     align-items: center;
     gap: 0.7rem;
-    color: var(--primary-color);
+    color: #4d2701;
     font-family: Georgia, serif;
     font-size: 1.3rem;
     font-weight: bold;
     letter-spacing: 1px;
     white-space: nowrap;
+    margin-left: 100px;
 }
 .logo img{
     width: 50px;
@@ -73,14 +74,14 @@ header.scrolled{
 @media screen and (max-width: 767px) {
 
     .logo {
-        gap: 0.4rem;
-        font-size: 1rem;
-    }
-
-    .logo img {
-        width: 120px;
-    }
-
+            gap: 0.4rem;
+            font-size: 1rem;
+        }
+    
+        .logo img {
+            width: 120px;
+            margin-left: 9x;
+        }
 }
 
 
@@ -124,7 +125,7 @@ header.scrolled{
     align-items: center;
 
     position: relative;
-    background-color: rgb(122, 117, 117);
+    background-color: #E9DBCC;
 }
 
 
@@ -134,6 +135,7 @@ header.scrolled{
     z-index: 2;
     max-width: 650px;
     color: var(--white-color);
+    margin-top: -50px; 
 }
 
 @media screen and (max-width: 767px) {
@@ -168,12 +170,12 @@ header.scrolled{
     font-family: Georgia,serif;
     font-size: 3rem;
     line-height: 1.15;
-    color: var(--primary-color);
+    color: #4d2701;
     margin-bottom: 1.5rem;
 }
 
 .hero h1 span{
-    color: var(--primary-color);
+    color: #4d2701;
 }
 
 .hero p{
@@ -186,7 +188,7 @@ header.scrolled{
 
 .cta-button{
     display: inline-block;
-    background-color: var(--primary-color);
+    background-color: #5e2f01;
     color: var(--white-color);
     padding: 0.8rem 1.5rem;
     border-radius: 30px;
@@ -629,4 +631,35 @@ html{
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
+}
+.location-link {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.4rem;
+
+    color: var(--dark-color);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.3s ease;
+}
+
+.location-link strong {
+    color: var(--dark-color);
+    transition: color 0.3s ease;
+}
+
+.map-link-text {
+    color: var(--primary-color);
+    font-size: 0.85rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.location-link:hover strong {
+    color: var(--primary-color);
+}
+
+.location-link:hover .map-link-text {
+    color: var(--dark-color);
 }
