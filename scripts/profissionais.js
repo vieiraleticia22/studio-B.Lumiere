@@ -14,7 +14,7 @@ const professionals = [
     },
     {
         nome: "Laíza Costta",
-        especialidade: "Nail Desing",
+        especialidade: "Manicure",
         imagem: "imagens/laiza.webp.webp",
         whatsapp: "https://wa.me/5527988634440"
     },
