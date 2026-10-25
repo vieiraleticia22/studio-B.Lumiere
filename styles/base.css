@@ -600,6 +600,7 @@ html{
 
 .location-map {
     width: 80%;
+    margin: 0 auto;
     overflow: hidden;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(41, 43, 48, 0.12);
