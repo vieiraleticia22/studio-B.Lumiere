@@ -218,6 +218,8 @@ header.scrolled{
 
 .about-content {
     max-width: 650px;
+    padding: 6rem 5% 4rem;
+    margin-top:-170px;
 }
 
 .about h2 {
